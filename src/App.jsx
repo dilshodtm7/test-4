@@ -13,8 +13,8 @@ import "./App.css";
 
 function App() {
   const getMyAccount = "https://withreferal-back-1.onrender.com/auth/login";
-  const myId = 4545454
-  // const myId = WebApp.initDataUnsafe.user.id
+  // const myId = 4545454
+  const myId = WebApp.initDataUnsafe.user.id
   const [userData, setUserData] = useState(null);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
