@@ -232,7 +232,7 @@ const Home = ({ data, loading , fetchAccountData, myId }) => {
             <span className="balance-wallet-span">TON</span>
             <span className="balance-wallet-span">
               <img src={Ton} className="coin" alt="TON" />
-              {Number(data.balance_ton).toFixed(2)}
+              {Number(data.balance_ton).toFixed(3)}
             </span>
           </div>
         </div>          <div className="wallet-connects">
