@@ -130,6 +130,7 @@ import Setting from "./components/settings/settings.jsx";
 import Task from "./components/missions/task.jsx";
 import Invite from "./components/invite/invite.jsx";
 import { isMobile, isTablet } from 'react-device-detect';
+import QrCode from "./assets/qrcod.png";
 
 import "./App.css";
 
@@ -244,7 +245,12 @@ function App() {
   );
 
   const renderDesktopLayout = () => (
-    <h1>Desktop Layout</h1>
+     <>
+<div className="appss">
+<h3>Play with Mobile phone</h3>
+<img src={QrCode}  className="loader-img" alt="" />
+</div>
+    </>
   );
 
 
