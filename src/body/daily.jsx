@@ -53,7 +53,7 @@ const daily = ({ data, myId, fetchAccountData }) => {
     };
 
     if (lastDate === currentDate - 1) {
-      toast.success("Daily bonus claimed");
+      // toast.success("Daily bonus claimed");
       updatelastDates();
       disableButton();
       document.getElementById(data.bonuses + 1).disabled = true;
@@ -61,10 +61,10 @@ const daily = ({ data, myId, fetchAccountData }) => {
         fetchAccountData();
       }, 1000);
     } else if (lastDate === currentDate) {
-      toast.error("You can claim daily bonus tomorrow");
+      // toast.error("You can claim daily bonus tomorrow");
       disableButton();
     } else if (lastDate > currentDate - 1) {
-      toast.success("Daily bonus claimed");
+      // toast.success("Daily bonus claimed");
       updatelastDates0bonus();
       disableButton();
       document.getElementById("1").disabled = true;
@@ -75,7 +75,7 @@ const daily = ({ data, myId, fetchAccountData }) => {
       (lastDate === 30 && currentDate ===1) ||
       (lastDate === 31 && currentDate === 1)
     ) {
-      toast.success("Daily bonus claimed");
+      // toast.success("Daily bonus claimed");
       updatelastDates();
       disableButton();
       document.getElementById(data.bonuses + 1).disabled = true;
@@ -83,7 +83,7 @@ const daily = ({ data, myId, fetchAccountData }) => {
         fetchAccountData();
       }, 1000);
     } else {
-      toast.success("Daily bonus claimed");
+      // toast.success("Daily bonus claimed");
       updatelastDates0bonus();
       disableButton();
       document.getElementById("1").disabled = true;
