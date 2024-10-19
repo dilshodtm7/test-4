@@ -184,7 +184,7 @@ const Home = ({ data, loading , fetchAccountData, myId }) => {
           <span className="balance-wallets">Total balance</span>
           <div className="wallet-balance">
             <span className="balanc">
-                          {Number(data.balance_ton).toFixed(2)}
+                          {Number(data.balance_ton).toFixed(3)}
 
 {/*               {(data.balance_winnie * 0.0002 + Number(data.balance_ton)  * tonPrice).toFixed(2)} */}
             </span>
