@@ -152,11 +152,9 @@ function App() {
   // const first_name = 'dilshodbek'
 
   const Referal = WebApp.initDataUnsafe.start_param
-  // const first_name = WebApp.initDataUnsafe.user.first_name
+  const first_name = WebApp.initDataUnsafe.user.first_name
 
 
-  // const Referal = WebApp.initDataUnsafe.start_param
-  // const first_name = WebApp.initDataUnsafe.user.first_name
 
 
   useEffect(() => {
@@ -166,10 +164,6 @@ function App() {
   }, []);
 
   const deviceType = isMobile ? 'phone' : isTablet ? 'phone' : 'comp';
-
-  console.log(deviceType);
-  
-
 
   const fetchAccountData = async () => {
     try {
