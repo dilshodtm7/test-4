@@ -379,7 +379,9 @@ const Special = ({ data, myId, fetchAccountData, loading }) => {
                       <img src={telegram} className="task-list-image-icon" alt="" />
                     ) : task.image === "youtube" ? (
                       <img src={Youtube} className="task-list-image-icon" alt="" />
-                    ) : task.image === "tiktok" ? (
+                    ): task.image === "twitter" ? (
+                    <img src={X} className="task-list-image-icon" alt="" />
+                  ) : task.image === "tiktok" ? (
                       <img src={Tiktok} className="task-list-image-icon" alt="" />
                     ) : task.image === "instagram" ? (
                       <img src={Insta} className="task-list-image-icon" alt="" />
