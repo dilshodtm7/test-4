@@ -188,9 +188,9 @@ const Swap = ({ data, fetchAccountData, myId, toggleVisibility }) => {
 
       <div id="swaps">
         <div className="swap-title">
-          <span>Swap</span>
+          <span>Swap coming soon</span>
         </div>
-        <div className="mt10">
+{/*         <div className="mt10">
           <div className="send">
             <div className="send-title">
               <div>
@@ -249,14 +249,14 @@ const Swap = ({ data, fetchAccountData, myId, toggleVisibility }) => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <button className="swap-btn" 
+{/*         <button className="swap-btn" 
           disabled
           onClick={submits}
           >
           Coming Soon
-        </button>
+        </button> */}
         <div className="alert">
           <span id="alert"></span>
         </div>
