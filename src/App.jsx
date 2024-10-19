@@ -21,7 +21,8 @@ function App() {
   const [getalltasks, setGetalltasks] = useState(null);
   const [tournament, setTournament] = useState(null);
   const [referer, setReferer] = useState(null);
-console.log(WebApp)
+console.log(WebApp.initData)
+  console.log(WebApp.initDataUnsafe)
 
   //   const Referal = '46546546'
   // const first_name = 'dilshodbek'
