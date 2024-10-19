@@ -213,6 +213,7 @@ import telegram from "../../assets/telegram.png";
 import Tiktok from "../../assets/tok.webp";
 import Youtube from "../../assets/youtube.png";
 import Insta from "../../assets/insta.png";
+import X from "../../assets/x.avif";
 
 const Special = ({ data, myId, fetchAccountData, loading }) => {
   const Complate = "https://withreferal-back-1.onrender.com/auth/complate";
@@ -319,6 +320,8 @@ const Special = ({ data, myId, fetchAccountData, loading }) => {
                 <div className="task-list-image">
                   {task.image === "telegram" ? (
                     <img src={telegram} className="task-list-image-icon" alt="" />
+                  ): task.image === "twitter" ? (
+                    <img src={X} className="task-list-image-icon" alt="" />
                   ) : task.image === "youtube" ? (
                     <img src={Youtube} className="task-list-image-icon" alt="" />
                   ) : task.image === "tiktok" ? (
