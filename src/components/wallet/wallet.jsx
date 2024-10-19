@@ -90,25 +90,53 @@ const Home = ({ data, loading , fetchAccountData, myId }) => {
           >
             x
           </button>
-          <div className="wallet-title">Withdraw soon</div>
+          <div className="wallet-title">Airdrop soon</div>
 
           <div className="ton-airdop">
                   <div className="">
                     <MdOutlineTaskAlt className="airdrop" />
-                    <span>Airdrop will be available soon</span>
+                    <span>Launched Winnie Farming</span>
                   </div>
+                  <hr />
                   <div className="">
                     <MdOutlineTaskAlt className="airdrop" />
-                    <span>Airdrop will be available soon</span>
+                    <span>Launch referral system</span>
                   </div>
+                  <hr />
                   <div className="">
-                    <HiOutlineArrowPathRoundedSquare className="airdrops" />
-                    <span>Airdrop will be available soon</span>
+                    <MdOutlineTaskAlt className="airdrop" />
+                    <span>Added Free spins</span>
                   </div>
+                  <hr />
+                  <div className="">
+                    <MdOutlineTaskAlt className="airdrop" />
+                    <span>Added Earn with Content</span>
+                  </div>
+                  <hr />
                   <div className="">
                     <TbSquareRounded className="airdrops" />
-                    <span>Airdrop will be available soon</span>
+                    <span>Blockchain Selection</span>
                   </div>
+                  <hr />
+                  <div className="">
+                    <TbSquareRounded className="airdrops" />
+                    <span>Airdrop</span>
+                  </div>
+                  <hr />
+                  <div className="">
+                    <TbSquareRounded className="airdrops" />
+                    <span>SWAP & TRANSFER</span>
+                  </div>
+
+                  <hr />
+                  <div className="">
+                    <TbSquareRounded className="airdrops" />
+                    <span>Listing</span>
+                  </div>
+                  
+                  <hr />
+
+
           </div>
         </div>
       </div>
